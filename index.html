@@ -8,7 +8,6 @@
 <html>
 	<head>
 		<title>PulluP Club</title>
-		<link rel="shortcut icon" href="ico/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -28,7 +27,7 @@
 							<div class="inner">
 								<h1>PulluP</h1>
 								<p><!--[-->The hightest enrichmenttier of autism one can obtain, <!--]--><br />
-								<!--[-->and the most shit coder you've ever seen.<!--]--></p>
+								<!--[-->and the most shit coder you've ever seen.</a>, formally cuntflaps.me.<!--]--></p>
 							</div>
 						</div>
 						<nav>
@@ -41,11 +40,28 @@
 						</nav>
 					</header>
 
+
+					<button onclick="setMute()" type="button">Mute</button>
+				 <audio id="tunes" autoplay preload="auto" tabindex="0" type="audio/mpeg">
+				 <source type="audio/mp3" src="https://pullup.club/music/out.mp3">
+				 Sorry, your browser does not support HTML5 audio.
+				 </audio>
+				<script>
+					var vid = document.getElementById("tunes");
+					function setMute() { 
+					vid.volume = 0;
+} 
+					</script>
+				<script>
+					var vid = document.getElementById("tunes");
+					vid.volume = 0.1;
+					vid.loop = false;
+				</script>
+				
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="footer"><a href="https://pullup.club/indexnewold.html">Old Look</a>  |  <a href="https://github.com/pullup/pullup.github.io/commits/master/index.html">History</a></p>
+						<p class="footer"><a href="https://pullup.club/indexnewold.html">Old Look</a>   |   <a href="https://github.com/pullup/pullup.github.io/commits/master/index.html">History</a></p>
 					</footer>
-
 			</div>
 
 		<!-- BG -->
