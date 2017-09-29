@@ -1570,8 +1570,8 @@ video#bgvid {
 
 		}
 /* lolicon */
-
-	  .anime-left,.anime-right {
+	#lolicon
+   .anime-left,.anime-right {
     position: fixed;
     max-width: 250px;
     width: 5%;
